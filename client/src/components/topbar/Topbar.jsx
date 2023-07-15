@@ -11,9 +11,10 @@ export default function Topbar() {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <span className="logo">Lamasocial</span>
+          <span className="logo">MyChat</span>
         </Link>
       </div>
+
       <div className="topbarCenter">
         <div className="searchbar">
           <Search className="searchIcon" />
@@ -23,6 +24,7 @@ export default function Topbar() {
           />
         </div>
       </div>
+
       <div className="topbarRight">
         <div className="topbarLinks">
           <span className="topbarLink">Homepage</span>

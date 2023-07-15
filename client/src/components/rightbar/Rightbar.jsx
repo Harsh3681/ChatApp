@@ -45,13 +45,14 @@ export default function Rightbar({ user }) {
     }
   };
 
+
   const HomeRightbar = () => {
     return (
       <>
         <div className="birthdayContainer">
           <img className="birthdayImg" src="assets/gift.png" alt="" />
           <span className="birthdayText">
-            <b>Pola Foster</b> and <b>3 other friends</b> have a birhday today.
+            <b>Druv Notani</b> and <b>3 other friends</b> have a birhday today.
           </span>
         </div>
         <img className="rightbarAd" src="assets/ad.png" alt="" />
@@ -64,6 +65,8 @@ export default function Rightbar({ user }) {
       </>
     );
   };
+
+
 
   const ProfileRightbar = () => {
     return (
@@ -120,7 +123,11 @@ export default function Rightbar({ user }) {
       </>
     );
   };
-  return (
+
+
+// that's below is main return of the react funct and this above are the function which we create befor the code
+
+  return (  
     <div className="rightbar">
       <div className="rightbarWrapper">
         {user ? <ProfileRightbar /> : <HomeRightbar />}
